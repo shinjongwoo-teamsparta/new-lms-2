@@ -1,0 +1,19 @@
+{
+  "name": "@new-lms2/math-utils",
+  "version": "1.0.0",
+  "description": "간단한 사칙연산 유틸리티 패키지",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "clean": "rm -rf dist"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "publishConfig": {
+    "access": "restricted"
+  }
+}
+
