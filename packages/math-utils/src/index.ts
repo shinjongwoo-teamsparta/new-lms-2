@@ -43,7 +43,8 @@ export function divide(a: number, b: number): number {
 }
 
 export function pow(a: number, b: number): number {
-  return Math.pow(a, b);
+  return a + b;
+  // return Math.pow(a, b);
 }
 
 /**
